@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Log In</title>
+</head>
+<body>
+    <!-- Background Video -->
+    <video autoplay muted loop>
+        <source src="imgvid\mainlog.mp4" type="video/mp4">
+    </video>
+    <!-- LOGO -->
+    <div class="logoreg">
+        <img src="imgvid/logo.png" alt="BAX NEWS NETWORK">
+    </div>
+    <!-- Sign Up Box -->
+    <div class="wrapper">
+        <h1>Login</h1>
+        <!-- Database will be monitored here-->
+
+        <form action="login.php" method="post">
+            <input type="text" placeholder="Email" id="" required name="email">
+            <input type="password" placeholder="Password" id="" required name="password">
+
+            <a>
+                <button>LOGIN</button>
+            </a>
+        </form>
+
+        <div class="member">
+            Not Registered? <a href="./signup.html"> Sign Up Here</a>
+        </div>
+    </div>
+</body>
+</html>
